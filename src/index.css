@@ -139,6 +139,7 @@ h6{
     --btn-transition: all 375ms ease-in-out;
     --container-color-bg: hsla(223, 12%, 59%, 1);
       font-size:35px;
+      text-transform: uppercase;
   }
 
   }
