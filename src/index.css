@@ -130,9 +130,10 @@ p{
       margin-bottom:10px;
     }
    button{
-      font-size: 8px;
+     height:20px;
+      font-size: 10px;
       margin-top:30px;
-     position:absolute;
+     position:sticky;
     }
     
 
