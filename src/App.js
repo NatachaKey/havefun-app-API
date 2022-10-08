@@ -24,6 +24,7 @@ const getActivity = async() => {
       <h3 >{activity.activity}</h3>
       <h5>Activity type: {activity.type}</h5>
       <h6>Participants: {activity.participants}</h6>
+      <h6>Price: $ {activity.price} </h6>
     </div>
 
       <div>
