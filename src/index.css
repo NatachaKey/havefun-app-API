@@ -134,17 +134,11 @@ p{
       margin-top:10px;
       margin-bottom:10px;
     }
-  
-    
-    #btnMobile{
-      display:block;
-      border-redius: 10px;
-      padding:10px;
-      background-color:yellow;
-      font-size:15px;
-}
-    #btn{
-    display:none;
+  button{
+     height:20px;
+     font-size: 7px;
+     margin-top:20px;
+     margin-bottom:20px;
     }
 
   }
