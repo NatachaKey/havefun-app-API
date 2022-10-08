@@ -117,7 +117,7 @@ p{
     background-color: var(--btn-color-hover);
     width: calc(var(--btn-size) * var(--btn-scale));
     --btn-scale: 3;
-    font-size:16px;
+    font-size:14px;
   }
 
   @media all and (max-width:500px){
