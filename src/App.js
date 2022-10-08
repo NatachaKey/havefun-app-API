@@ -28,6 +28,7 @@ const getActivity = async() => {
 
       <div>
         <button id="btn" className="box before" onClick={()=>getActivity()}>Find an activity</button>
+        <button id="btnMobile" className="box before" onClick={()=>getActivity()}>Find an activity</button>
       </div>
     </div>
   );
