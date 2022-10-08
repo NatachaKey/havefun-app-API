@@ -1,0 +1,135 @@
+body {
+
+  margin: 0;
+
+  background-image: url('neon.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100vw;
+  height:90vh;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.App{
+  margin-top: 60px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h5{
+  font-size: 25px;
+  color: aliceblue;
+  text-shadow: 0 0 3px #FF0000;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3{
+  color: aliceblue;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #fff;
+  font-family: 'Poppins', sans-serif;
+}
+h6{
+  color: aliceblue;
+  font-size: 20px;
+  text-shadow: 0 0 3px #FF0000;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  font-size: 14px;
+  color: aliceblue;
+  text-shadow: 0 0 3px #FF0000;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+
+  h3 {
+    margin: 0;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    font-size: 2.5rem;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+  }
+ 
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px #2d9da9;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+  }
+
+
+
+
+
+  :root {
+    --btn-color-bg: rgb(95, 184, 211);
+    --btn-color-hover: rgb(233, 235, 133);
+    --btn-scale: 4;
+    --btn-size: 10vmin;
+    --btn-transition: all 375ms ease-in-out;
+    --container-color-bg: hsla(223, 12%, 59%, 1);
+  }
+  
+  #btn{
+    border:none;
+    color:#212121;
+    
+  }
+  
+  .box {
+    box-shadow: 20px 20px 50px 10px pink inset;
+    margin-top: 10px;
+    display: block;
+    left: 50%;
+    outline: none;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .before {
+    background-color: var(--btn-color-bg);
+    border-radius: var(--btn-size);
+    height: var(--btn-size);
+    transition: var(--btn-transition);
+    width: var(--btn-size);
+  }
+  
+  
+  .before:hover {
+    background-color: var(--btn-color-hover);
+    width: calc(var(--btn-size) * var(--btn-scale));
+    --btn-scale: 3;
+    font-size:16px;
+  }
+
+  @media all and (max-width:500px){
+    h3{
+      font-size: 30px;
+    }
+    h5, h6{
+      font-size: 20px;
+    }
+    #btn{
+      font-size: 10px;
+    }
+    
+
+  }
