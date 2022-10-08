@@ -120,7 +120,12 @@ p{
     font-size:14px;
   }
 
+#btnMobile{
+  display:none;
+}
+
   @media all and (max-width:500px){
+    
     h3{
       font-size: 18px;
     }
@@ -129,14 +134,17 @@ p{
       margin-top:10px;
       margin-bottom:10px;
     }
-   button{
-     height:20px;
-      font-size: 7px;
-      margin-top:20px;
-    margin-bottom:20px;
+  
     
+    #btnMobile{
+      display:block;
+      border-redius: 10px;
+      padding:10px;
+      background-color:yellow;
+      font-size:15px;
+}
+    #btn{
+    display:none;
     }
-    
-
 
   }
