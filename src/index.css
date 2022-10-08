@@ -120,9 +120,7 @@ p{
     font-size:14px;
   }
 
-#btnMobile{
-  display:none;
-}
+
 
   @media all and (max-width:500px){
     
