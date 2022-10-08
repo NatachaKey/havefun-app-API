@@ -116,13 +116,16 @@ h6{
 
   @media all and (max-width:500px){
     
+    
     h3{
       font-size: 18px;
+      text-transform: uppercase;
     }
     h5, h6{
       font-size: 12px;
       margin-top:10px;
       margin-bottom:10px;
+      text-transform: uppercase;
     }
   button{
      height:40px;
