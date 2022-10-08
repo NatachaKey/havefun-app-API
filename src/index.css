@@ -118,8 +118,9 @@ h6{
     
     
     h3{
-      font-size: 18px;
+      font-size: 20px;
       text-transform: uppercase;
+      margin-bottom:20px;
     }
     h5, h6{
       font-size: 12px;
