@@ -40,7 +40,7 @@ h3{
 }
 h6{
   color: aliceblue;
-  font-size: 20px;
+  font-size: 18px;
   text-shadow: 0 0 3px #FF0000;
   font-family: 'Poppins', sans-serif;
 }
@@ -88,12 +88,12 @@ p{
   #btn{
     border:none;
     color:#212121;
-    
+   margin-top: 10px;
   }
   
   .box {
     box-shadow: 20px 20px 50px 10px pink inset;
-    margin-top: 10px;
+  
     display: block;
     left: 50%;
     outline: none;
