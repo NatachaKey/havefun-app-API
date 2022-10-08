@@ -97,7 +97,7 @@ p{
     display: block;
     left: 50%;
     outline: none;
-    position: absolute;
+    
     top: 40%;
     transform: translate(-50%, -50%);
     font-family: 'Poppins', sans-serif;
@@ -122,16 +122,16 @@ p{
 
   @media all and (max-width:500px){
     h3{
-      font-size: 15px;
+      font-size: 18px;
     }
     h5, h6{
-      font-size: 10px;
+      font-size: 12px;
       margin-top:10px;
       margin-bottom:10px;
     }
    button{
      height:20px;
-      font-size: 8px;
+      font-size: 7px;
       margin-top:30px;
     
     }
