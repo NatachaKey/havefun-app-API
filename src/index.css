@@ -43,15 +43,8 @@ h6{
   font-size: 18px;
   text-shadow: 0 0 3px #FF0000;
   font-family: 'Poppins', sans-serif;
+  margin-bottom:10px;
 }
-p{
-  font-size: 14px;
-  color: aliceblue;
-  text-shadow: 0 0 3px #FF0000;
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px;
-}
-
 
   h3 {
     margin: 0;
