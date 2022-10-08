@@ -86,7 +86,6 @@ h6{
   
   .box {
     box-shadow: 20px 20px 50px 10px pink inset;
-  
     display: block;
     left: 50%;
     outline: none;
@@ -136,7 +135,7 @@ h6{
     --btn-color-bg: rgb(95, 184, 211);
     --btn-color-hover: rgb(233, 235, 133);
     --btn-scale: 4;
-    --btn-size: 15vmin;
+    --btn-size: 20vmin;
     --btn-transition: all 375ms ease-in-out;
     --container-color-bg: hsla(223, 12%, 59%, 1);
       font-size:24px;
