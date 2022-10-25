@@ -6,7 +6,6 @@ function App() {
 
 const [activity, setActivity] = useState(''); 
 
-
 useEffect(()=>{
   getActivity()
 }, [])
@@ -16,7 +15,6 @@ const getActivity = async() => {
   const data = await response.json();
   setActivity(data);
 }
-
 
   return (
     <div className="App">
