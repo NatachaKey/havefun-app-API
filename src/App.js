@@ -17,18 +17,18 @@ const getActivity = async() => {
 }
 
   return (
-    <div className="App">
+   <div className="App">
      <div>
-      <h3 >{activity.activity}</h3>
-      <h5>Activity type: {activity.type}</h5>
-      <h6>Participants: {activity.participants}</h6>
-      <h6>Price: $ {activity.price} </h6>
-    </div>
+       <h3 >{activity.activity}</h3>
+       <h5>Activity type: {activity.type}</h5>
+       <h6>Participants: {activity.participants}</h6>
+       <h6>Price: $ {activity.price} </h6>
+     </div>
 
-      <div>
-        <button id="btn" className="box before" onClick={()=>getActivity()}>Find an activity</button>
-      </div>
-    </div>
+     <div>
+       <button id="btn" className="box before" onClick={()=>getActivity()}>Find an activity</button>
+     </div>
+   </div>
   );
 }
 
