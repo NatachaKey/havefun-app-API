@@ -107,12 +107,7 @@ body {
          margin-bottom:20px;
     }
      :root {
-         --btn-color-bg: rgb(95, 184, 211);
-         --btn-color-hover: rgb(233, 235, 133);
-         --btn-scale: 4;
          --btn-size: 20vmin;
-         --btn-transition: all 375ms ease-in-out;
-         --container-color-bg: hsla(223, 12%, 59%, 1);
     }
      button{
          font-size:12px;
